@@ -1,0 +1,13 @@
+{
+  "manifest": {
+    "type": "batteryThresholds",
+    "version": 1
+  },
+  "payload": {
+    "device": "",
+    "battery": "",
+    "thresholdType": "",
+    "voltage": 0,
+    "measurementTime": "2021-03-29T19:23:03.241Z"
+  }
+}

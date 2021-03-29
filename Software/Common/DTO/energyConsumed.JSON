@@ -1,0 +1,14 @@
+{
+  "manifest": {
+    "type": "energyConsumed",
+    "version": 1
+  },
+  "payload": {
+    "device": "",
+    "daily": 0,
+    "monthly": 0,
+    "yearly": 0,
+    "total": 0,
+    "measurementTime": "2021-03-29T19:27:14.151Z"
+  }
+}

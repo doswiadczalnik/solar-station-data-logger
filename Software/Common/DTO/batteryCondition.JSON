@@ -1,0 +1,13 @@
+{
+  "manifest": {
+    "type": "batteryCondition",
+    "version": 1
+  },
+  "payload": {
+    "device": "",
+    "battery": "",
+    "temp": 0,
+    "chargePercent": 0,
+    "measurementTime": "2021-03-29T19:20:43.972Z"
+  }
+}

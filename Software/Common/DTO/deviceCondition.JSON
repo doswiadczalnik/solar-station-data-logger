@@ -1,0 +1,11 @@
+{
+  "manifest": {
+    "type": "deviceCondition",
+    "version": 1
+  },
+  "payload": {
+    "device": "",
+    "temp": 0,
+    "measurementTime": "2021-03-29T19:18:54.851Z"
+  }
+}

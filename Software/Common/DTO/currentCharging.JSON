@@ -1,0 +1,13 @@
+{
+  "manifest": {
+    "type": "currentCharging",
+    "version": 1
+  },
+  "payload": {
+    "device": "",
+    "battery": "",
+    "voltage": 0,
+    "current": 0,
+    "measurementTime": "2021-03-29T16:54:44.232Z"
+  }
+}
