@@ -1,7 +1,8 @@
-This object transports data of current production of electricity. It must contain two objects:
+This object transports data of current production of electricity. It must contain three objects:
 
 - manifest - defines JSON version and type. It must be **type=energyConsumed**
 - payload - main data
+- measurement time
 
 
 
@@ -18,9 +19,9 @@ This object transports data of current production of electricity. It must contai
     "daily": 0,
     "monthly": 0,
     "yearly": 0,
-    "total": 0,
-    "measurementTime": "2021-03-29T19:27:14.151Z"
-  }
+    "total": 0
+  },
+  "measurementTime": "2021-03-29T18:59:55.031Z"
 }
 ```
 
@@ -38,7 +39,7 @@ payload
   monthly n
   yearly n
   total n
-  measurementTime d
+measurementTime d
 ```
 
 
@@ -56,8 +57,8 @@ payload
     "daily": 0,
     "monthly": 0,
     "yearly": 0,
-    "total": 0,
-    "measurementTime": "2021-03-26T18:40:11.698Z"
-  }
+    "total": 0
+  },
+  "measurementTime": "2021-03-29T18:59:55.031Z"
 }
 ```

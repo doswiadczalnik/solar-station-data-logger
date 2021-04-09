@@ -7,7 +7,7 @@
     "device": "",
     "battery": "",
     "temp": 0,
-    "chargePercent": 0,
-    "measurementTime": "2021-03-29T19:20:43.972Z"
-  }
+    "chargePercent": 0
+  },
+  "measurementTime": "2021-03-29T19:20:43.972Z"
 }

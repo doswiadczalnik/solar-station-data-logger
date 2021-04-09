@@ -1,7 +1,8 @@
-This object transports data of current production of electricity. It must contain two objects:
+This object transports data of current production of electricity. It must contain three objects:
 
 - manifest - defines JSON version and type. It must be **type=deviceStatus**
 - payload - main data
+- measurement time
 
 
 
@@ -15,9 +16,9 @@ This object transports data of current production of electricity. It must contai
   },
   "payload": {
     "device": "",
-    "status": "",
-    "measurementTime": "2021-03-29T18:59:55.031Z"
-  }
+    "status": ""
+  },
+  "measurementTime": "2021-03-29T18:59:55.031Z"
 }
 ```
 
@@ -32,7 +33,7 @@ manifest
 payload
   device s
   status s
-  measurementTime d
+measurementTime d
 ```
 
 
@@ -47,8 +48,8 @@ payload
   },
   "payload": {
     "device": "regulator",
-    "status": "online",
-    "measurementTime": "2021-03-25T20:11:43.284Z"
-  }
+    "status": "online"
+  },
+  "measurementTime": "2021-03-29T18:59:55.031Z"
 }
 ```

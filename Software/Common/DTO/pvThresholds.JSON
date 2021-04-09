@@ -6,7 +6,7 @@
   "payload": {
     "device": "",
     "thresholdType": "",
-    "voltage": 0,
-    "measurementTime": "2021-03-29T19:23:03.241Z"
-  }
+    "voltage": 0
+  },
+  "measurementTime": "2021-03-29T18:59:55.031Z"
 }

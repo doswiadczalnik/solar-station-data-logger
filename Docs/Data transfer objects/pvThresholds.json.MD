@@ -1,7 +1,8 @@
-This object transports data of current production of electricity. It must contain two objects:
+This object transports data of current production of electricity. It must contain three objects:
 
 - manifest - defines JSON version and type. It must be **type=pvThresholds**
 - payload - main data
+- measurement time
 
 
 
@@ -16,9 +17,9 @@ This object transports data of current production of electricity. It must contai
   "payload": {
     "device": "",
     "thresholdType": "",
-    "voltage": 0,
-    "measurementTime": "2021-03-29T19:23:03.241Z"
-  }
+    "voltage": 0
+  },
+  "measurementTime": "2021-03-29T18:59:55.031Z"
 }
 ```
 
@@ -34,7 +35,7 @@ payload
   device s
   thresholdType s
   voltage n
-  measurementTime d
+measurementTime d
 ```
 
 
@@ -50,8 +51,8 @@ payload
   "payload": {
     "device": "regulator",
     "thresholdType": "minimum",
-    "voltage": 5.12,
-    "measurementTime": "2021-03-26T17:41:33.743Z"
-  }
+    "voltage": 5.12
+  },
+  "measurementTime": "2021-03-29T18:59:55.031Z"
 }
 ```
