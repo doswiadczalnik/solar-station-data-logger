@@ -17,7 +17,9 @@ This object transports data of current production of electricity. It must contai
   "payload": {
     "device": "",
     "battery": "",
-    "status": ""
+    "voltageStatus": "",
+    "tempStatus": "",
+    "innerResistanceStatus": ""
   },
   "measurementTime": "2021-03-29T18:59:55.031Z"
 }
@@ -34,7 +36,9 @@ manifest
 payload
   device s
   battery s
-  status s
+  voltageStatus s 
+  tempStatus s
+  innerResistanceStatus s
 measurementTime d
 ```
 
@@ -51,8 +55,14 @@ measurementTime d
   "payload": {
     "device": "regulator",
     "battery": "main",
-    "status": "normal"
+    "voltageStatus": "normal",
+    "tempStatus": "normal",
+    "innerResistanceStatus": "normal"
   },
   "measurementTime": "2021-03-29T18:59:55.031Z"
 }
 ```
+
+
+
+Available statuses are described in Docs/Dictionaries/batteryStatusDictionary.MD and are also in JSON file in Software/Common/Dictionaries/batteryStatusDictionary.JSON

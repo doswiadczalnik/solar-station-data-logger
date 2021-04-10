@@ -1,0 +1,14 @@
+{
+  "manifest": {
+    "type": "pvStatusDictionary",
+    "version": 1
+  },
+  "statuses": {
+    "inputStatuses": {
+      "0": "Normal",
+      "1": "No power connected",
+      "2": "Higher volt input",
+      "3": "Input volt error"
+    }
+  }
+}

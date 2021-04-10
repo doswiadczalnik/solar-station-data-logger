@@ -53,3 +53,7 @@ measurementTime d
   "measurementTime": "2021-03-29T18:59:55.031Z"
 }
 ```
+
+
+
+Available statuses are described in Docs/Dictionaries/pvStatusDictionary.MD and are also in JSON file in Software/Common/Dictionaries/pvStatusDictionary.JSON

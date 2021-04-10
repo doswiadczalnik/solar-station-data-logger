@@ -1,0 +1,14 @@
+{
+  "manifest": {
+    "type": "chargingStatusDictionary",
+    "version": 1
+  },
+  "statuses": {
+    "chargingStatuses": {
+      "0": "No charging",
+      "1": "Float",
+      "2": "Boost",
+      "3": "Equalization"
+    }
+  }
+}

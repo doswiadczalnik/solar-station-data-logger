@@ -6,7 +6,9 @@
   "payload": {
     "device": "",
     "battery": "",
-    "status": ""
+    "voltageStatus": "",
+    "tempStatus": "",
+    "innerResistanceStatus": ""
   },
   "measurementTime": "2021-03-29T19:20:43.972Z"
 }

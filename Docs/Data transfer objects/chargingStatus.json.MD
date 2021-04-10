@@ -48,8 +48,12 @@ measurementTime d
   },
   "payload": {
     "device": "regulator",
-    "status": "boost charging"
+    "status": "Boost"
   },
   "measurementTime": "2021-03-29T18:59:55.031Z"
 }
 ```
+
+
+
+Available statuses are described in Docs/Dictionaries/chargingStatusDictionary.MD and are also in JSON file in Software/Common/Dictionaries/chargingStatusDictionary.JSON

@@ -1,0 +1,24 @@
+{
+  "manifest": {
+    "type": "batteryStatusDictionary",
+    "version": 1
+  },
+  "statuses": {
+    "voltageStatuses": {
+      "0": "Normal",
+      "1": "Overvoltage",
+      "2": "Undervoltage",
+      "3": "Low voltage disconnect",
+      "4": "Fault"
+    },
+    "tempStatuses": {
+      "0": "Normal",
+      "1": "Overtemp",
+      "2": "Low temp"
+    },
+    "innerResistanceStatuses": {
+      "0": "Normal",
+      "1": "Abnormal"
+    }
+  }
+}
