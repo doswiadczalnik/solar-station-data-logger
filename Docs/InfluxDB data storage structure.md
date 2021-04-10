@@ -14,7 +14,6 @@ batteryThresholds,device=regulator,battery=main minVoltage=10.00,maxVoltage=14.0
 pvThresholds,device=regulator minVoltage=10.00,maxVoltage=14.00
 batteryCondition,device=regulator,battery=main temp=25.00,chargePercent=90
 batteryStatus,device=regulator,battery=main voltageStatus="normal",tempStatus="normal",innerResistanceStatus="normal"
-deviceStatus,device=regulator status="online"
 deviceCondition,device=regulator temp=25.00
 energyProduced,device=regulator daily=1.43,monthly=12.00,yearly=20.00,total=100.00
 energyConsumed,device=regulator daily=1.43,monthly=12.00,yearly=20.00,total=100.00
