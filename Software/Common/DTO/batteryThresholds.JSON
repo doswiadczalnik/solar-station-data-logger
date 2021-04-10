@@ -6,8 +6,8 @@
   "payload": {
     "device": "",
     "battery": "",
-    "thresholdType": "",
-    "voltage": 0
+    "minVoltage": 0,
+	"maxVoltage": 0
   },
   "measurementTime": "2021-03-29T19:20:43.972Z"
 }

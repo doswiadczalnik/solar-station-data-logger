@@ -17,8 +17,8 @@ This object transports data of current production of electricity. It must contai
   "payload": {
     "device": "",
     "battery": "",
-    "thresholdType": "",
-    "voltage": 0
+    "minVoltage": 0,
+	"maxVoltage": 0
   },
   "measurementTime": "2021-03-29T18:59:55.031Z"
 }
@@ -35,8 +35,8 @@ manifest
 payload
   device s
   battery s
-  thresholdType s
-  voltage n
+  minVoltage n
+  maxVoltage n
 measurementTime d
 ```
 
@@ -53,8 +53,8 @@ measurementTime d
   "payload": {
     "device": "regulator",
     "battery": "main",
-    "thresholdType": "minimum",
-    "voltage": 5.12
+    "minVoltage": 5.12,
+    "maxVoltage": 14.7
   },
   "measurementTime": "2021-03-29T18:59:55.031Z"
 }
