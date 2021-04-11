@@ -18,7 +18,7 @@ This object transports data of current production of electricity. It must contai
     "device": "",
     "battery": "",
     "minVoltage": 0,
-	"maxVoltage": 0
+    "maxVoltage": 0
   },
   "measurementTime": "2021-03-29T18:59:55.031Z"
 }
