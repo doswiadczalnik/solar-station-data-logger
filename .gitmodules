@@ -1,0 +1,3 @@
+[submodule "Software/Firmware/M5Stack/M5Core/UiFlow/custom_blocks"]
+	path = Software/Firmware/M5Stack/M5Core/UiFlow/custom_blocks
+	url = https://github.com/doswiadczalnik/M5Stack-UiFlow-custom-blocks.git
